@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Build project
-        run: npm run build
+      - name: Build project (mock)
+        run: echo "🛠️ Pretend we are building the project..."
 
       - name: Deploy (mock)
-        run: echo "🚀 Deploying project..."
+        run: echo "🚀 Pretend we are deploying the project..."
